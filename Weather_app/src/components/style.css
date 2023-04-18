@@ -1,0 +1,101 @@
+@import url(https://cdnjs.cloudflare.com/ajax/libs/weather-icons/2.0.12/css/weather-icons.min.css);
+
+
+.container{
+    background: #000;
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: 30vh;
+    justify-content: center;
+    align-items:center;
+}
+.container1{
+    background: #000;
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    padding-bottom: 140px;
+
+   
+    justify-content: center;
+    align-items:center;
+
+}
+.search{
+    padding-bottom: 10px;
+}
+#search{
+    
+    height: 5vh;
+    width: 20vw;
+    border: solid 2px rgb(207, 205, 205);
+    border-radius: 4px;
+}
+.btn{
+    background: rgb(77, 165, 165);
+    border: none;
+    color: aliceblue;
+    height: 5vh;
+    width: 10vw;
+    border-radius: 4px;
+}
+.card{
+    background: white;
+    border: solid grey 2px;
+    padding-top: 30px;
+    border-radius: 20px;
+   
+} 
+.card1{
+    border-radius: 0px 0px 20px 20px;
+}
+.weathericon{
+    margin-left: 370px;
+
+}
+.wi{
+    visibility: visible;
+    font-size: 6em;
+}
+.icon{
+    font-size: 3em;
+    margin: 0px 40px;
+    color:rgb(77, 165, 165);
+}
+.info{
+    display: flex;
+    flex-direction: row;
+    margin-top: 30px;
+    height: 100px;
+    background: #000;
+    
+}
+.temp{
+    padding: 30px 90px;
+    color:white;
+    font-size: larger;
+}
+.temp1{
+    background:  rgb(77, 165, 165);
+   
+}
+.temptext{
+    font-size:500%;
+    padding-top: 0px;
+}
+.condi{
+    font-size: 150%;
+    padding: 0px;
+}
+.extra{
+    display: flex;
+    flex-direction: row;
+    width: 15vw;
+    justify-content: space-evenly;
+    
+}
+.section{
+    display: flex;
+    flex-direction: row;
+}
