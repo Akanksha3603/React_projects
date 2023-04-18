@@ -1,0 +1,52 @@
+.main-div{
+    height: 90vh;
+    width: 95vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 30px solid black;
+
+}
+.logo{
+    height: 50px;
+    width: 50px;
+    border: solid 10px;
+    border-color: bisque;
+}
+.btn{
+    margin: 10px;
+    height: 50px;
+    width: 120px;
+    color: white;
+    background: black;
+    visibility: visible;
+}
+.btn:hover{
+    color:black;
+    background-color: white;
+    border: solid 3px;
+}
+.form{
+    width: 300px;
+    height: 30px;
+}
+.showItem{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.eachItem{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items:center;
+    width: 300px;
+    margin: 10px 0px;
+    border: solid;
+    padding: 4px 30px;
+}
+.symbol{
+    margin: 7px 6px;
+}
